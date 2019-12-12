@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Animated Typing Plugin</title>
+    <style>
+        .animate-typing {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div
+        class="animate-typing"
+        data-animate-loop="true" 
+        data-type-speed="200"
+        data-type-delay="200"
+        data-remove-speed="50"
+        data-remove-delay="500"
+        data-cursor-speed="200">
+            jQuery Animated Typing Plugin|
+            Each sub-text be seperated by a pipleline character|
+            Customize the animation by adding some attributes to the element|
+            Animation will be executed just by adding 'animated-typing' class
+    </div>
+    <div
+        class="animate-typing"
+        data-animate-loop="true"
+        data-type-speed="500"
+        data-cursor-speed="700">
+            This is just another text.
+    </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.animateTyping.js"></script>
+    <!-- <script src="jquery.animateTyping.min.js"></script> -->
+</body>
+
+</html>
