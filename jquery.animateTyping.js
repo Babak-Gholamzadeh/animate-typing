@@ -4,7 +4,7 @@
      * @param   {HTML Element} elementTyping - The element which the text be typed in it
      * @param   {string} text - The text that must be typed
      * @param   {number} speed(ms) - The speed of typing each character
-     * @param   {delay} delay(ms) - The delay before starting to type
+     * @param   {number} delay(ms) - The delay before starting to type
      * @return  {Promise}
     */
     const typeText = (elementTyping, text, speed, delay) =>
@@ -25,7 +25,7 @@
      * @description     Animate removing text from an element
      * @param   {HTML Element} elementTyping - The element which the text be removed from it
      * @param   {number} speed(ms) - The speed of removing each character
-     * @param   {delay} delay(ms) - The delay before starting to remove
+     * @param   {number} delay(ms) - The delay before starting to remove
      * @return  {Promise}
     */
     const removeText = (elementTyping, speed, delay) =>
