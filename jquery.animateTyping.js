@@ -1,4 +1,4 @@
-; (($) => {
+; ($ => {
     /*
      * @description     Animate typing text in an element
      * @param   {HTML Element} elementTyping - The element which the text be typed in it
