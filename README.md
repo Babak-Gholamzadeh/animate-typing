@@ -1,2 +1,2 @@
 # animate-typing
-This is plugin to animate typing that require jQuery to work
+This is a js plugin to animate typing that require jQuery to work
